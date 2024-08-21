@@ -1,0 +1,7 @@
+header{
+    background-color: darkmagenta;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
