@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import{BrowserRouter, Routes, Route} from 'react-router-dom'
-import Home from'./home'
-import Produtos from './produtos'
-import Oferta from './oferta'
+import Home from'./Home'
+import Produtos from './Produtos'
+import Oferta from './src/Oferta'
+import './globals.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </BrowserRouter>
   </React.StrictMode>,
 )
+
 
 
 

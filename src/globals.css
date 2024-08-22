@@ -1,0 +1,21 @@
+header{
+    background-color: darkmagenta;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.image-container {
+    display: flex;
+    gap: 1rem; /* Espaço entre as imagens */
+    overflow-x: auto; /* Permite rolagem horizontal se as imagens transbordarem */
+    padding: 1rem;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    flex-shrink: 0; /* Impede o encolhimento das imagens */
+
+}

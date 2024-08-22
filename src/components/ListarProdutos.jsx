@@ -5,9 +5,11 @@ export default function ListarProdutos({listaProdutos}){
             {listaProdutos.map((produto)=>
             <div>
                 <p>{produto.nome}</p>
+                <p>{produto.fragrância}</p>
+                <p>{produto.cor}</p>
+                <p>{produto.quantidade}</p>
+                <p>{produto.categoria}</p>
                 <p>{produto.preço}</p>
-                <p>{produto.modelo}</p>
-                <p>{produto.tamanho}</p>
                 <img src= {produto.imagem}/>
             </div>
             )} 

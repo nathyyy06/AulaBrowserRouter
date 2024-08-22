@@ -1,63 +1,105 @@
 import { useState } from "react";
-import listarProdutos from "../components/ListarProdutos";
 import ListarProdutos from "../components/ListarProdutos";
 export default function oferta (){
     const [produtos,setProdutos] = useState([
         {
-            nome:"Shape Marfim Preto Logo Amarelo",
-            preço:"R$149,90",
-            imagem:"https://acdn.mitiendanube.com/stores/002/907/587/products/img-20230616-wa00041-2a45399bc23d03c89516869230755783-480-0.webp"
+            nome:"Gloss labial FPS 15 Una",
+            cor:"Vermelho",
+            quantidade:"100g",
+            categoria:"boca",
+            preço:"R$ 47,90",
+            imagem:"https://ncf-ssr-akamai.prd.naturacloud.com/_next/image?url=https://production.na01.natura.com/on/demandware.static/-/Sites-natura-br-storefront-catalog/default/dwcdef7b5f/Produtos/NATBRA-92604_1.jpg&w=384&q=60",
+        
         },
-        {
-            nome:"Skate Iniciante Com Parceria WBlack",           
-            preço:"R$199,90",
+       { 
+            nome:"Kit Sabonetes em Barra Tododia 4 caixas com ",  
+            fragrância:"framboesa e pimenta rosa",  
+            quantidade:"5 un", 
+            categoria:"corpo",     
+            preço:"R$ 103,90",
             imagem:"https://acdn.mitiendanube.com/stores/002/907/587/products/mockup-skate-wood-light-wblack-3dd080e26bfd51290d17129292613230-480-0.webp"
         },
-        {
-            nome:"Camiseta Creature Logo Mini Preta G",
-            preço:"R$139,90",
-            imagem:"https://acdn.mitiendanube.com/stores/002/907/587/products/02-creature-logo-mini1-2b1d0e58ad4010579116847817654024-480-0.webp"
+        { 
+            nome:" Kit Tododia Todanoite ",  
+            fragrância:" Chá de Camomila e Lavanda",  
+            quantidade:"400ml", 
+            categoria:"corpo",     
+            preço:"R$ 75,90",
+            imagem:"https://ncf-ssr-akamai.prd.naturacloud.com/_next/image?url=https://production.na01.natura.com/on/demandware.static/-/Sites-natura-br-storefront-catalog/default/dw1c0dc632/NATBRA-168620_1.jpg&w=384&q=60"
         },
-        {
-            nome:"Lixa Importada Visible Emborrachada",
-            preço:"R$34,90",
-            imagem:"https://acdn.mitiendanube.com/stores/002/907/587/products/lixa-visible-da092c81a47c9cd98917103558318633-480-0.webp"
+        { 
+            nome:"Desodorante Antitranspirante Roll-on Tododia Aclarar ",  
+            fragrância:"algodão ",  
+            quantidade:"70ml", 
+            categoria:"corpo",     
+            preço:"R$ 27,90",
+            imagem:"https://ncf-ssr-akamai.prd.naturacloud.com/_next/image?url=https://production.na01.natura.com/on/demandware.static/-/Sites-natura-br-storefront-catalog/default/dwf1641fc4/NATBRA-123131_1.jpg&w=384&q=60 "
         },
-        {
-            nome:"Camiseta Wood Light Creme Escrito",
-            preço:"R$79,90",
-            imagem:"https://acdn.mitiendanube.com/stores/002/907/587/products/camiseta_off_white-8a0f3287688964c00c17174317473168-480-0.webp"
+        { 
+            nome:"Essencial Exclusivo Floral Feminino",  
+            fragrância:"flores brancas",  
+            quantidade:"100 ml", 
+            categoria:"corpo",     
+            preço:"R$ 154,90",
+            imagem:"https://ncf-ssr-akamai.prd.naturacloud.com/_next/image?url=https://production.na01.natura.com/on/demandware.static/-/Sites-natura-br-storefront-catalog/default/dw3dce3a82/NATBRA-95575_1.jpg&w=384&q=60 "
         },
-        {
-            nome:"Skate Profissional Completo On Fire Blue",
-            preço:"R$599,99",
-            imagem:"https://acdn.mitiendanube.com/stores/002/907/587/products/skate-pro-kit-on-fire-blue1-8e0ca5a9a8ea03894c16797032456073-480-0.webp"
+        { 
+            nome:"Una Infinito",  
+            fragrância:"Adocicado Intenso",  
+            quantidade:"75 ml", 
+            categoria:"corpo",     
+            preço:"R$ 175,90",
+            imagem:"https://ncf-ssr-akamai.prd.naturacloud.com/_next/image?url=https://production.na01.natura.com/on/demandware.static/-/Sites-natura-br-storefront-catalog/default/dw244a87b7/NATBRA-43135_1.jpg&w=384&q=60 "
         },
-        {
-            nome:"Shape Maple Com Parceria Léo Novamente",
-            preço:"R$199,90 ",
-            imagem:"https://acdn.mitiendanube.com/stores/002/907/587/products/pro-model-leo-novamente-2063cf6cd75171d01a17061943470567-480-0.webp"
+        { 
+            nome:"Natura Homem Sagaz",  
+            fragrância:"amadeirada ousada",  
+            quantidade:"100 ml", 
+            categoria:"corpo",     
+            preço:"R$ 129,90",
+            imagem:"https://ncf-ssr-akamai.prd.naturacloud.com/_next/image?url=https://production.na01.natura.com/on/demandware.static/-/Sites-natura-br-storefront-catalog/default/dw49802d41/Produtos/NATBRA-81951_1.jpg&w=384&q=60 "
         },
-        {
-            nome:"Rolamento de Skate Black Sheep Gold",
-            preço:"R$69,90 ",
-            imagem:"https://acdn.mitiendanube.com/stores/002/907/587/products/rolamento-black-sheep-gold-90e828e7689ea49e4f17103570111367-480-0.webp"
+        { 
+            nome:"Kaiak Masculino",  
+            fragrância:"Aromático Aquoso Moderado",  
+            quantidade:"100 ml", 
+            categoria:"corpo",     
+            preço:"R$ 102,90",
+            imagem:"https://ncf-ssr-akamai.prd.naturacloud.com/_next/image?url=https://production.na01.natura.com/on/demandware.static/-/Sites-natura-br-storefront-catalog/default/dwb6f9a7cf/NATBRA-108400_2.jpg&w=384&q=60 "
         },
-        {
-            nome:"Mochila Black Sheep",
-            preço:"R$199,00",
-            imagem:"https://acdn.mitiendanube.com/stores/002/907/587/products/mochila-black-sheep1-60df56934a6855c46316808066171500-480-0.webp"
+        { 
+            nome:"Kit Óleo Desodorante Corporal Sève",  
+            fragrância:"Amêndoas e Flor de Ameixa",  
+            quantidade:"200 ml", 
+            categoria:"corpo",     
+            preço:"R$ 105,90",
+            imagem:"https://ncf-ssr-akamai.prd.naturacloud.com/_next/image?url=https://production.na01.natura.com/on/demandware.static/-/Sites-natura-br-storefront-catalog/default/dw981051a9/NATBRA-174578_1.jpg&w=384&q=60 "
         },
-        {
-            nome:"Roda de Skate Emex 53mm 55DB Green",
-            preço:"R$119,90",
-            imagem:"https://acdn.mitiendanube.com/stores/002/907/587/products/emex-wheel-53mm-55d-verde1-efa0e2ec08790ab05e16849407741183-480-0.gif"
+        { 
+            nome:"Luna 10 anos",  
+            fragrância:"frutal moderado.",  
+            quantidade:"75 ml", 
+            categoria:"corpo",     
+            preço:"R$ 169,90",
+            imagem:"https://ncf-ssr-akamai.prd.naturacloud.com/_next/image?url=https://production.na01.natura.com/on/demandware.static/-/Sites-natura-br-storefront-catalog/default/dw8c06be13/NATBRA-150218_2.jpg&w=384&q=60 "
         },
-
 ])
+
 return(
     <div>
         <ListarProdutos listaProdutos={produtos}/>
-    </div>
-)
+    </div>,
+    
+ <div className="image-container">
+ {produtos.map((produto, index) => (
+     <img
+         key={index}
+         src={produto.imagem}
+         alt={produto.nome}
+     />
+ ))}
+</div>
+
+);
+
 }
