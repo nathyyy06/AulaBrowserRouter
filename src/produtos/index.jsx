@@ -4,7 +4,7 @@ export default function produtos(){
     const [produtos,setProdutos] = useState([
         {
             nome:"Base Sérum Nude Me Una",  
-            cor:"10N",
+            cor:["10N","Pigmentação fraca"],
             quantidade:"30 ml",
             categoria:"rosto",        
             preço:"R$ 154,90",
@@ -12,7 +12,7 @@ export default function produtos(){
         },
         {
             nome:"Protetor Clareador FPS 70 Chronos",  
-            cor:"claro medio",
+            cor:["claro medio","Pigmentação suave"],
             quantidade:"50 ml",
             categoria:"rosto",        
             preço:"R$ 91,50",
@@ -20,7 +20,7 @@ export default function produtos(){
         },
         {
             nome:"Corretivo Cobertura Extrema 24h Una",  
-            cor:"10N",
+            cor:["10N","Pigmentação forte"],
             quantidade:"8 ml",
             categoria:"rosto",        
             preço:"R$ 56,90",
@@ -28,7 +28,7 @@ export default function produtos(){
         },
         {
             nome:"Batom Extremo Conforto FPS 25 Una",  
-            cor:"N2",
+            cor:["N2","Pigmentação suave"],
             quantidade:"3,8 g",
             categoria:"boca",        
             preço:"R$ 45,90",
@@ -36,7 +36,7 @@ export default function produtos(){
         },
         {
             nome:"Gloss labial FPS 15 Una",  
-            cor:"boca 100",
+            cor:["boca 100","Pigmentação suave"],
             quantidade:"8 ml",
             categoria:"boca",        
             preço:"R$ 47,90",
@@ -44,7 +44,7 @@ export default function produtos(){
         },
         {
           nome:"Sérum Regenerador Progressivo para Cabelos Quimicamente Danificados Lumina",
-          fragrância:"amora",
+          fragrância:["amora","Adocicado"],
           quantidade:"100 ml",
           categoria:"cabelo",
           preço:"R$ 55,90",
@@ -52,7 +52,7 @@ export default function produtos(){
         },
         {
             nome:"Máscara Regeneradora para Cabelos Quimicamente Danificados Lumina",
-            fragrância:"amora",
+            fragrância:["amora","Adocicado"],
             quantidade:"250 ml",
             categoria:"cabelo",
             preço:"R$ 53,90",
@@ -60,7 +60,7 @@ export default function produtos(){
           },
           {
             nome:"Sérum Noturno Antiqueda e Crescimento Lumina",
-            fragrância:"camomila",
+            fragrância:["camomila","suave"],
             quantidade:"100 ml",
             categoria:"cabelo",
             preço:"R$ 84,90",
@@ -68,7 +68,7 @@ export default function produtos(){
           },
           {
             nome:"Condicionador Mamãe e Bebê",
-            fragrância:"algodão",
+            fragrância:["algodão","Suave"],
             quantidade:"200 ml",
             categoria:"cabelo",
             preço:"R$ 33,90",
@@ -76,7 +76,7 @@ export default function produtos(){
           },
           {
             nome:"Condicionador Fortificante Antiqueda e Crescimento Lumina",
-            fragrância:"camomila",
+            fragrância:["camomila","Suave"],
             quantidade:"300 ml",
             categoria:"cabelo",
             preço:"R$ 51,90",
@@ -84,7 +84,7 @@ export default function produtos(){
           },
           {
             nome:"Body Splash Tododia",
-            fragrância:"algodão",
+            fragrância:["algodão","Suave"],
             quantidade:"200 ml",
             categoria:"corpo",
             preço:"R$ 77,90",
@@ -92,7 +92,7 @@ export default function produtos(){
           },
           {
             nome:"Body Splash Tododia",
-            fragrância:"Cereja e Avelã ",
+            fragrância:["Cereja","Avelã "],
             quantidade:"200 ml",
             categoria:"corpo",
             preço:"R$ 59,90",
@@ -100,7 +100,7 @@ export default function produtos(){
           },
           {
             nome:"Body Splash Tododia ",
-            fragrância:"Amora Vermelha e Jabuticaba ",
+            fragrância:["Amora Vermelha","Jabuticaba "],
             quantidade:"200 ml",
             categoria:"corpo",
             preço:"R$ 77,90",
@@ -108,7 +108,7 @@ export default function produtos(){
           },
           {
             nome:"Body Splash Tododia ",
-            fragrância:"Ameixa e Flor de Baunilha",
+            fragrância:["Ameixa","Flor de Baunilha"],
             quantidade:"200 ml",
             categoria:"corpo",
             preço:"R$ 77,90",
@@ -116,7 +116,7 @@ export default function produtos(){
           },
           {
             nome:"Body Splash Tododia",
-            fragrância:"Capim Limão e Hortelã",
+            fragrância:["Capim Limão","Hortelã"],
             quantidade:"200 ml",
             categoria:"corpo",
             preço:"R$ 77,90",

@@ -15,7 +15,7 @@ export default function Home(){
         },
         {
             nome:"Perfume em Óleo Natura 379 Benjoim Cumaru ", 
-            fragrância:"Adocicado amadeirado",          
+            fragrância:["Adocicado", "amadeirado"],          
             quantidade:"15 ml",
             categoria:"corpo",
             preço:"R$ 185,00",
@@ -23,7 +23,7 @@ export default function Home(){
         },
         { 
             nome:"Essencial Exclusivo Feminino ", 
-            fragrância:"Floral intenso",          
+            fragrância:["Floral intenso","Laranjeira"],          
             quantidade:"100 ml",
             categoria:"corpo",
             preço:"R$ 259,90",
@@ -31,7 +31,7 @@ export default function Home(){
         },
         {
             nome:" Ekos Ryo Vivo", 
-            fragrância:"Floral aquoso moderado",          
+            fragrância:["Floral aquoso"," moderado"],          
             quantidade:"75 ml",
             categoria:"corpo",
             preço:"R$ 134,90",
@@ -39,7 +39,7 @@ export default function Home(){
         },
         {
             nome:"Una Blush", 
-            fragrância:"Adocicado floral intenso",          
+            fragrância:["Adocicado", "floral intenso"],          
             quantidade:"75 ml",
             categoria:"corpo",
             preço:"R$ 175,90",
