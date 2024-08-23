@@ -61,23 +61,23 @@ export default function Home(){
         showThumbs={false}
         >
             <div>
-              <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.fashionnetwork.com%2Fnews%2FNatura-lanca-seu-programa-natura-startups-na-argentina%2C993250.html&psig=AOvVaw0Fjtp5PvD9FoHXFb7IANK8&ust=1724513793986000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMiBkdW4i4gDFQAAAAAdAAAAABAE"></img>
+              <img className='imgcar' src="https://ncf-ssr-akamai.prd.naturacloud.com/_next/image?url=https://production.na01.natura.com/on/demandware.static/-/Sites-NatBrazil-Library/default/dw1fa25368/Home%20NE/12-08-2024/desk_categoria_Ekos-Ryo-Vivo_02.jpg&w=3840&q=70"></img>
             </div>
 
             <div>
-                <img src="https://www.natura.com.br/?page=3&&utm_content=na_amplo_amplo_a_nac_institucional_institucional_ambos_gen-1504-1205-diadasmaes-outlet-14-90_cpa&gad_source=1&gclid=CjwKCAjwoJa2BhBPEiwA0l0ImDBqP6cj_dqpGglFdtnJ9Nb3FDNcuBkUN5xSspcjB4n2EsRMKxLp7BoCG_QQAvD_BwE&gclsrc=aw.ds"></img>
+                <img className='imgcar' src="https://ncf-ssr-akamai.prd.naturacloud.com/_next/image?url=https://production.na01.natura.com/on/demandware.static/-/Sites-NatBrazil-Library/default/dw71f1a64b/Home%20NE/12-08-2024/desk_categoria_Ekos%20Ryo%20Chuva_01_2.jpg&w=3840&q=70"></img>
             </div>
 
             <div>
-                <img src="https://www.natura.com.br/?page=3&&utm_content=na_amplo_amplo_a_nac_institucional_institucional_ambos_gen-1504-1205-diadasmaes-outlet-14-90_cpa&gad_source=1&gclid=CjwKCAjwoJa2BhBPEiwA0l0ImDBqP6cj_dqpGglFdtnJ9Nb3FDNcuBkUN5xSspcjB4n2EsRMKxLp7BoCG_QQAvD_BwE&gclsrc=aw.ds"></img>
+                <img className='imgcar' src="https://ncf-ssr-akamai.prd.naturacloud.com/_next/image?url=https://production.na01.natura.com/on/demandware.static/-/Sites-NatBrazil-Library/default/dwcf0f1aa5/Home%20NE/12-08-2024/desk_categoria_perfumaria_03.jpg&w=3840&q=70"></img>
             </div>
 
             <div>
-                <img src="https://www.natura.com.br/?page=3&&utm_content=na_amplo_amplo_a_nac_institucional_institucional_ambos_gen-1504-1205-diadasmaes-outlet-14-90_cpa&gad_source=1&gclid=CjwKCAjwoJa2BhBPEiwA0l0ImDBqP6cj_dqpGglFdtnJ9Nb3FDNcuBkUN5xSspcjB4n2EsRMKxLp7BoCG_QQAvD_BwE&gclsrc=aw.ds"></img>
+                <img className='imgcar' src="https://ncf-ssr-akamai.prd.naturacloud.com/_next/image?url=https://production.na01.natura.com/on/demandware.static/-/Sites-NatBrazil-Library/default/dwa8ebcaa7/Internas/2024/Ciclo%2013/ekos-ague-castanha-01-desk.jpg&w=3840&q=70"></img>
             </div>
 
             <div>
-                <img src="https://www.natura.com.br/?page=3&&utm_content=na_amplo_amplo_a_nac_institucional_institucional_ambos_gen-1504-1205-diadasmaes-outlet-14-90_cpa&gad_source=1&gclid=CjwKCAjwoJa2BhBPEiwA0l0ImDBqP6cj_dqpGglFdtnJ9Nb3FDNcuBkUN5xSspcjB4n2EsRMKxLp7BoCG_QQAvD_BwE&gclsrc=aw.ds"></img>
+                <img className='imgcar' src="https://ncf-ssr-akamai.prd.naturacloud.com/_next/image?url=https://production.na01.natura.com/on/demandware.static/-/Sites-NatBrazil-Library/default/dw997315cc/Categorias/NE%20Ekos%20Castanha/ekos-ague-castanha-02-desk.jpg&w=3840&q=70"></img>
             </div>
         </Carousel>
 

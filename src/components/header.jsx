@@ -7,12 +7,12 @@ export default function Header(){
         <p>Home</p>
         </Link>
 
-        <Link to="/produto">
+        <Link to="/produtos">
         <p>Produtos</p>
         </Link>
 
         <Link to="/oferta">
-        <p>ofertas</p>
+        <p>Ofertas</p>
         </Link>
     </header>
     )

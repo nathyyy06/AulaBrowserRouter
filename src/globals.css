@@ -1,9 +1,16 @@
+*{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
 header{
     background-color: darkmagenta;
     height: 35px;
     display: flex;
     justify-content: center;
     gap: 200px;
+    align-items: center;
 }
 
 body {
@@ -14,7 +21,7 @@ body {
   header {
     background-color: #d43981;
     color: #fff;
-    padding: 1rem;
+    padding: 0;
   }
   
   footer {
@@ -53,10 +60,28 @@ body {
 }
 
 .container{
- display: flex;
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ flex-wrap: wrap;
 }
-  
 
+.container div{
+  width: auto;
+}
+
+.container div p{
+  width: auto;
+}
+
+li.slide.selected{
+  height: auto;
+}
+
+.imgcar{
+  display: flex;
+  height: 500px;
+  width: 270px;
+}
 
   
   

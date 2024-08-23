@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ListarProdutos from "../components/ListarProdutos";
+import Header from "../components/header";
 export default function Oferta (){
     const [produtos,setProdutos] = useState([
         {
@@ -87,18 +88,12 @@ export default function Oferta (){
 
 return(
     <div>
+        <Header/>
+    <div>
         <ListarProdutos listaProdutos={produtos}/>
-    </div>,
+    </div>
     
- <div className="image-container">
- {produtos.map((produto, index) => (
-     <img
-         key={index}
-         src={produto.imagem}
-         alt={produto.nome}
-     />
- ))}
-</div>
+    </div>
 
 );
 
