@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ListarProdutos from "../components/ListarProdutos";
-export default function oferta (){
+export default function Oferta (){
     const [produtos,setProdutos] = useState([
         {
             nome:"Gloss labial FPS 15 Una",

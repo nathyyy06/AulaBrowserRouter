@@ -6,26 +6,13 @@ header{
     gap: 200px;
 }
 
-.image-container {
-    display: flex;
-    gap: 1rem; /* Espaço entre as imagens */
-    overflow-x: auto; /* Permite rolagem horizontal se as imagens transbordarem */
-    padding: 1rem;
-}
-
-.image-container img {
-    max-width: 100%;
-    height: auto;
-    flex-shrink: 0; /* Impede o encolhimento das imagens */
-
-}
 body {
     margin: 0;
     font-family: Arial, sans-serif;
   }
   
   header {
-    background-color: #333;
+    background-color: #d43981;
     color: #fff;
     padding: 1rem;
   }
@@ -51,12 +38,26 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    
   }
   
   .produto {
-    border: 1px solid #ddd;
+    border: 1px solid #a6d2e9;
     padding: 1rem;
     width: 200px;
   }
+
+.img{
+  height: 50%;
+  width: 59%;
+}
+
+.container{
+ display: flex;
+}
+  
+
+
+  
   
   

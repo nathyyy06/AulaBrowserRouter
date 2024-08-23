@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function produtos(){
+export default function Produtos(){
     const [produtos,setProdutos] = useState([
         {
             nome:"Base Sérum Nude Me Una",  

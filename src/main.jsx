@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import{BrowserRouter, Routes, Route} from 'react-router-dom'
-import Home from'/home'
-import Produtos from './Produtos'
-import Oferta from './src/Oferta'
+import Home from'./home'
+import Produtos from './produtos'
+import Oferta from './oferta'
 import './globals.css'
 
 
