@@ -84,6 +84,7 @@ export default function Home(){
 
         <div>
             <ListarProdutos listaProdutos={produtos}/>
+            <footer/>
         </div>
 
        

@@ -92,7 +92,7 @@ return(
     <div>
         <ListarProdutos listaProdutos={produtos}/>
     </div>
-    
+        <footer/>
     </div>
 
 );
